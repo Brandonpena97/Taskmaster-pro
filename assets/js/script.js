@@ -17,7 +17,7 @@ var auditTask = function(taskEl) {
   else if (Math.abs(moment().diff(time, "days")) <= 2) {
     $(taskEl).addClass("list-group-item-warning");
   }
-};
+}; 
 
 var createTask = function(taskText, taskDate, taskList) {
   // create elements that make up a task item
